@@ -1,0 +1,4 @@
+python is one of the most popular programming languages.
+python is widely used for backend development.
+python has a strong ecosystem and community support.
+Many developers start learning python for its portability.
