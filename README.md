@@ -105,6 +105,54 @@ This task demonstrates how Python can be used to scrape and process data from we
 
 ---
 
+## Task 05 – Currency Converter
+
+### Description
+A console-based Python application that converts an amount from one currency to another using exchange rate data.
+
+The program focuses on understanding how real-world API-based systems are structured by separating user interaction, data sourcing, and core conversion logic. Exchange rates are mocked to simulate an external API, keeping the task cost-free while preserving realistic architecture and data flow.
+
+---
+
+### Initial Setup
+- No external APIs or API keys required  
+- No third-party libraries needed  
+- Run the script directly using Python  
+
+---
+
+### Program Flow
+1. Accept currency codes and amount from the user via CLI  
+2. Validate user input for correctness and safety  
+3. Retrieve exchange rate data from a data provider layer (mocked API)  
+4. Convert the amount using a common base currency (USD)  
+5. Calculate the final converted value using core mathematical logic  
+6. Display the result in a clear, readable format  
+
+---
+
+### Tools and Libraries Used
+- Python (standard library only)
+
+---
+
+### Key Concepts Covered
+- API-style data consumption (mocked external service)  
+- Request–response style data flow  
+- Input validation and error handling  
+- JSON-like structured data usage (dictionary-based)  
+- Currency conversion mathematics  
+- Separation of concerns within a single-file program  
+- Clean, testable core logic design  
+
+---
+
+### Conclusion
+This task demonstrates how a simple utility can be designed using real-world architectural thinking. By isolating core logic from data sources and user interaction, the program remains easy to understand, test, and extend—laying a strong foundation for integrating real APIs or scaling into larger systems later.
+
+
+---
+
 ## Notes
 - All projects are intentionally console-based to emphasize core logic over user interface design.
 - The code prioritizes clarity, readability, and maintainable structure.
