@@ -150,6 +150,57 @@ The program focuses on understanding how real-world API-based systems are struct
 ### Conclusion
 This task demonstrates how a simple utility can be designed using real-world architectural thinking. By isolating core logic from data sources and user interaction, the program remains easy to understand, test, and extend—laying a strong foundation for integrating real APIs or scaling into larger systems later.
 
+## Task 06 – Word Count & Frequency Analysis Tool  
+
+### Description  
+A console-based Python application that reads a `.txt` file and analyzes its content.  
+
+The program calculates the total number of lines, words, and characters in the file. It also performs word frequency analysis to identify the most commonly used words.  
+
+The architecture separates file handling, text processing, and result presentation to maintain clean structure and clarity.
+
+---
+
+### Initial Setup  
+- No third-party libraries required  
+- Uses only Python standard library  
+- Place `.txt` files in the same directory as the script  
+- Run directly using Python  
+
+---
+
+### Program Flow  
+- Detect available `.txt` files in the directory  
+- Allow user to select a file via CLI  
+- Read file safely using context manager  
+- Count lines, words, and characters  
+- Normalize text (lowercase + remove punctuation)  
+- Generate word frequency distribution  
+- Sort and display top frequent words  
+- Present results in a structured report format  
+
+---
+
+### Tools and Libraries Used  
+- Python (standard library only)  
+- `os` for file detection  
+- `string` for text cleaning  
+- `collections.Counter` for frequency analysis  
+
+---
+
+### Key Concepts Covered  
+- File Input/Output handling  
+- String manipulation and tokenization  
+- Dictionary-based data aggregation  
+- Sorting and structured output formatting  
+- Modular function design (separation of concerns)  
+
+---
+
+### Conclusion 
+The tool produces a clear analytical summary of the text file, demonstrating practical file handling, text preprocessing, and basic data analysis using core Python concepts.
+
 
 ---
 
